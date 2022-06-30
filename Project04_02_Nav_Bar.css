@@ -1,0 +1,12 @@
+Body {background-image: url(Lesson04_03_Photo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-clip: padding-box;
+	background-size: cover;
+	}
+
+
+.test1 {background-clip: content-box;
+	background-color;blue;
+	}
