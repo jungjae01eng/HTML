@@ -1,0 +1,205 @@
+#Page1
+			{
+			Background-color: white;
+			}
+
+#Page2
+			{
+			Background-color: lightblue;
+			text-align: center;
+			}
+
+#Page3
+			{
+			Background-color: lightblue;
+			text-align: center;
+			}
+
+#Page4
+			{
+			Background-color: lightblue;
+			text-align: center;
+			}
+
+#Main
+			{
+			Background-color: darkblue;
+			text-align: center;
+			Font-family: arial;
+			Font-size: 15px;
+			Color: white;
+			Position: absolute;
+			Top: 0px;
+			Left: 0px;
+			Right:0px;
+			Height: 48px;
+			}
+
+#Navbar
+			{
+			Background-color: white;
+			Text-align: center;
+			Font-family: arial;
+			Font-size: 20px;
+			Color: black;
+			position: absolute;
+			Top: 48px;
+			Left: 5%;
+			Right: 5%;
+			Height: 60px;
+			}
+
+#Nav1
+			{
+			Font-family: arial;
+			Font-size: 16px;
+			Color: black;
+			position: absolute;
+			Top: 5px;
+			Left: 5%;
+			Right: 60%;
+			}
+
+#Nav2
+			{
+			Font-family: arial;
+			Font-size: 16px;
+			Color: black;
+			position: absolute;
+			Top: 5px;
+			Left: 60%;
+			Right: 5%;
+			}
+
+#Box1
+			{
+			position: absolute;
+			Top: 120px;
+			Left: 5.5%;
+			Right: 5.5%;
+			Height: 720px;
+			}
+
+#Box2
+			{
+			Background-color: #7990C6;
+			position: absolute;
+			Top: 850px;
+			Left: 5.5%;
+			Right: 5.5%;
+			Height: 500px;
+			}
+
+#Box3
+			{
+			Background-color: #7990C6;
+			position: absolute;
+			Top: 1360px;
+			Left: 5.5%;
+			Right: 5.5%;
+			Height: 500px;
+			}
+
+#Icon1
+			{
+			Position: absolute;
+			Top: 0px;
+			Left: 44%;
+			Right: 43%;
+			}
+
+.Picture1-2
+			{
+			Width: 100%;
+			}
+
+.Picture1-3
+			{
+			Position: absolute;
+			Top: 25px;
+			Width: 60%;
+			}
+
+.H1-1
+			{
+			Font-family: arial;
+			Font-size: 46px;
+			Color: White;
+			Position: absolute;
+			Top: 11%;
+			Left: 60%;
+			}
+
+.H3-1
+			{
+			Position: absolute;
+			Top: 15%;
+			Left: 42%;
+			Right: 40%;
+			}
+
+Form
+			{
+			position: absolute;
+			Top: 200px;
+			Left: 30%;
+			Right: 30%;
+			}
+
+.Form4-0
+			{
+			width: 600px;
+			background-color: lightgreen;
+			}
+
+.Form4-1
+			{
+			width: 500px;
+			}
+
+.links
+			{
+			Font-family: arial;
+			Font-size: 20px;
+			position: absolute;
+			Top: 200px;
+			}
+
+.Link1:link
+			{
+			Color: black;
+			Font-family: arial;
+			Font-size: 20px;
+			}
+
+.Link1:visited
+			{
+			Color: black;
+			Font-family: arial;
+			Font-size: 20px;
+			}
+
+.Link1:hover
+			{
+			Color: black;
+			Font-family: arial;
+			Font-size: 20px;
+			}
+
+a:link 
+			{
+			Font-size: 13px;
+			Color: white;
+			}
+
+a:visited
+			{
+			Font-size: 13px;
+			Color: white;
+			}
+
+a:hover
+			{
+			Font-size: 13px;
+			Color: white;
+			}
