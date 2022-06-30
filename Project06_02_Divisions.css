@@ -1,0 +1,35 @@
+#divone		{
+			background-color: blue;
+			height: 400px;
+			}
+
+#divtwo		{
+			background-color: red;
+			height: 200px;
+			position: relative;
+			top: -300px;
+			left: 10%;
+			}
+
+#divthree	{
+			background-color: green;
+			position: absolute;
+			top: 35%;
+			left: 50%;
+			}
+
+#divfour	{
+			background-color: purple;
+			height: 200px;
+			position: absolute;
+			top: 600px;
+			left: 0px;
+			z-index: -1;
+			}
+
+#divfive	{
+			background-color: yellow;
+			position: absolute;
+			top: 655px;
+			left: 0px;
+			}
