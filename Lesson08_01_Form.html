@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<html lang = "en">
+	<head>
+		<title>Forms</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" type = "text/css" href = "Lesson08_02_Form.css">
+	</head>
+
+	<body>
+		<div class = "myform">
+			<h1>Let me phish your info</h1>
+			<form method = "post" action = "mailto:jungjae.lee@rcstudent.org" enctype = "text/plain">
+			<p>
+			First Name: <input type = "text" name = "firstname" size = "15" placeholder = "Fisrtname"><br>
+			Last Name: <input type = "text" name = "lastname" size = "30" placeholder = "Lastname"><br>
+			Phone Number: <input type = "text" name = "phone" size = "15" maxlength = "10" placeholder = "000-000-0000" required = "required"><br>
+			Address: <input type = "text" name = "address" placeholder = "Address">
+			State: <input type = "text" name = "state" placeholder = "State" size = "5" maxlength = "2">
+			Zip Code: <input type = "text" name = "zip" placeholder = "ZIP code" maxlength = "5"><br>
+			</p>
+			
+			<p>There's other special field types<br>
+			Email Address <input type = "email"><br>
+			Webpages <input type = "url"><br>
+			
+			Let's talk about... text areas<br>
+			<textarea name = "essayquestion" rows = "5" maxlength = "2000"></textarea><br>
+			<input type = "submit" value = "send this bad boy in">
+			<input type = "reset" value = "clear">
+			<button type = "photoone.jpg" width = "80px" height = "28px" alt = "sign up for newsletter">
+			</button>
+			
+		<table>
+			<tr>
+				<td>First name</td>
+				<td><input type = "text" name = "name">
+				</td>
+			</tr>
+			<tr>
+				<td>Last name</td>
+				<td><input type = "text" name = "Lastname">
+				</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><input type = "text" name = "Address">
+				</td>
+			</tr>
+			<tr>
+				<td>State</td>
+				<td><input type = "text" name = "State">
+				</td>
+			</tr>
+		</table>
+		
+			<div id = "seconddiv">
+				<fieldset>
+					<legend>Customer Info</legend>
+					<label>First name:<input type = "text" name = "firstname" size = "34"></label><br>
+					<label>Street:<input type = "text" name = "Street" id = "street" size = "54"</label>
+				</fieldset>
+			</div>
+			
+			<div>
+			<!-- Form Controls -->
+			<label>Phone Number:<input type = "Tel" name = "mobile" id = "mobile" maxlength = "10"></label>
+				</br>
+			<label>Choose a color:
+				
+				<input type = "text" name = "color" id = "color" list = "colors">
+				
+				<datalist id = "colors">
+					<option value = "red" label = "red">
+					<option value = "green" label = "green">
+					<option value = "blue" label = "blue">
+					<option value = "yellow" label = "yellow">
+					<option value = "pink" label = "pink">
+					<option value = "black" label = "black">
+				</datalist>
+			</label>
+				</br>
+			<!-- Sliders -->
+			<div class = "slidercontainer">
+				<label>Choose a number between 1 and 100</label><br>
+				<input type = "range" min = "1" max = "100" value = "50" class = "slider" id = "myRange">
+			</div>
+				<br>
+			<input type = "number" name = "myChoice1" id = "myChoice1" min = "1" max = "10">
+				
+			<input type = "date" name = "mydate">
+			
+			<div id = "whatiuse">
+				<fieldset>
+					<legend>Check Boxes</legend>
+						<label>Repair<label>
+						<input type = "checkbox" name = "repair" chcked = "checked">
+							<br>
+						<label> Repair all?</label>
+						<input type = "checkbox" name = "reapairall">
+							<br>
+							<br>
+							<label> Option Buttons</label>
+								<p>What medal would you like to have?</label><br>
+									<input type = "radio" name = "medals" value = "gold">
+										Gold
+										<br>
+									<input type = "radio" name = "medals" value = "silver">
+										Silver
+										<br>
+									<input type = "radio" name = "medals" value = "bronze">
+										Bronze
+										<br>
+				</fieldset>
+				
+				<input type = "password" name = "pword" id = "pword" size = 15">
+				
+				
+				<fieldset>
+				<legend> Awesome dropdown lists</legend>
+				<select name = "colors" size = "1">
+					<optgroup label = "primary colors">
+						<option>Red</option>
+						<option>Blue</option>
+						<option>Green</option>
+					<optgroup label = "secondary colors">
+					<option>Yellow</option>
+					<option>Purple</option>
+				</select>
+				
+				
+					
+										
+			</form>
+		</div>
+	</body>
+</html>
